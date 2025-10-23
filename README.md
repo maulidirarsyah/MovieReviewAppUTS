@@ -71,4 +71,5 @@ Jalankan aplikasi
 
 🧑‍💻 Author
 Faruq Faroiz Maulidiarsyah [2306051101179]
+
 📧 [faruqfaroiz@gmail.com]
