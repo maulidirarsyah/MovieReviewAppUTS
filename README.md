@@ -4,9 +4,9 @@ Aplikasi Flutter Movie Review App adalah aplikasi katalog film sederhana yang di
 Aplikasi ini memungkinkan pengguna untuk menjelajahi daftar film, melihat detail film, melakukan pencarian, dan menampilkan halaman favorit (masih dalam tahap pengembangan).
 
 **🎬 Preview**
-|               Splash              |              Home             |               Detail              |               Search              |
-| :-------------------------------: | :---------------------------: | :-------------------------------: | :-------------------------------: |
-| ![Splash](screenshots/splash.png) | ![Home](screenshots/home.png) | ![Detail](screenshots/detail.png) | ![Search](screenshots/search.png) |
+|               Splash              |              Login             |               Home              |               Detail              |               Search             |
+| :-------------------------------: | :---------------------------: | :-------------------------------: | :-------------------------------: |:-------------------------------: |
+| ![Splash](screenshots/splash.png) | ![Login](screenshots/login.png) | ![Home](screenshots/home.png) | ![Detail](screenshots/detail.png) |![Search](screenshots/search.png) |
 
 
 **⚠️ Catatan:**
