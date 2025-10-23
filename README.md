@@ -55,7 +55,7 @@ Trailer Preview (belum berfungsi): tombol untuk menampilkan trailer film.
 ┃ ┗ 📜movie_card.dart
 ┗ 📜main.dart
 
-```
+
 **🧠 Teknologi yang Digunakan**
 ```Framework: Flutter
 Bahasa: Dart
