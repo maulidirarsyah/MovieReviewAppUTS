@@ -56,12 +56,11 @@ Trailer Preview (belum berfungsi): tombol untuk menampilkan trailer film.
 ┗ 📜main.dart
 
 ```
-
- 🧠 Teknologi yang Digunakan
-Framework: Flutter
+**🧠 Teknologi yang Digunakan**
+```Framework: Flutter
 Bahasa: Dart
 Desain UI: Material Design Components
-Sumber Data: File lokal movie_data.dart (dummy JSON-like data)
+Sumber Data: File lokal movie_data.dart (dummy JSON-like data)```
 
 **⚙️ Cara Menjalankan Proyek**
 
