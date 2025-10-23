@@ -15,11 +15,17 @@ Fitur Favorites Page dan Trailer saat ini belum berfungsi sepenuhnya dan akan di
 
 **🚀 Fitur Utama**
 Splash Screen: tampilan pembuka aplikasi sebelum masuk ke halaman utama.
+
 Login Page: halaman login sederhana untuk masuk ke aplikasi.
+
 Home Page: menampilkan daftar film populer dan rekomendasi.
+
 Search Page: memungkinkan pengguna mencari film berdasarkan judul.
+
 Movie Detail Page: menampilkan detail film seperti judul, rating, durasi, dan deskripsi.
+
 Favorites Page (masih dummy): rencana untuk menyimpan film favorit pengguna.
+
 Trailer Preview (belum berfungsi): tombol untuk menampilkan trailer film.
 
 **🧩 Project Structure**
