@@ -22,6 +22,7 @@ Favorites Page (masih dummy) — rencana untuk menyimpan film favorit pengguna.
 Trailer Preview (belum berfungsi) — tombol untuk menampilkan trailer film.
 
 **🧩 Project Structure**
+```
 lib/
 │
 ├── main.dart                # App entry point
@@ -38,6 +39,7 @@ lib/
 │
 └── models/
     └── movie.dart
+```
 
 
  🧠 Teknologi yang Digunakan
