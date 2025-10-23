@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 **🎬 Flutter Movie Review App**
 Aplikasi Flutter Movie Review App adalah aplikasi katalog film sederhana yang dibuat menggunakan Flutter dan Dart.
 Aplikasi ini memungkinkan pengguna untuk menjelajahi daftar film, melihat detail film, melakukan pencarian, dan menampilkan halaman favorit (masih dalam tahap pengembangan).
