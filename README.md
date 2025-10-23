@@ -6,7 +6,7 @@ Aplikasi ini memungkinkan pengguna untuk menjelajahi daftar film, melihat detail
 **🎬 Preview**
 |               Splash              |              Login             |               Home              |               Detail              |               Search             |
 | :-------------------------------: | :---------------------------: | :-------------------------------: | :-------------------------------: |:-------------------------------: |
-| ![Splash](screenshots/Splash.png) | ![Login](screenshots/Login.png) | ![Home](screenshots/home.png) | ![Detail](screenshots/detail.png) |![Search](screenshots/search.png) |
+| ![Splash](screenshots/plash.png) | ![Login](screenshots/ogin.png) | ![Home](screenshots/home.png) | ![Detail](screenshots/detail.png) |![Search](screenshots/search.png) |
 
 
 **⚠️ Catatan:**
