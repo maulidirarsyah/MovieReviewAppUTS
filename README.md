@@ -56,6 +56,7 @@ Desain UI: Material Design Components
 Sumber Data: File lokal movie_data.dart (dummy JSON-like data)
 
 **⚙️ Cara Menjalankan Proyek**
+
 Clone repository ini
 ``` git clone https://github.com/<username>/flutter_movie_app.git ```
 
