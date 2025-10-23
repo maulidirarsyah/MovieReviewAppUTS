@@ -1,0 +1,92 @@
+{
+  "trending": [
+    {
+      "id": "1",
+      "title": "Fast X",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/fiVW06jE7z9YnO4trhaMEdclSiC.jpg",
+      "rating": 7.2,
+      "releaseDate": "2023-05-17",
+      "duration": 142,
+      "genres": ["Action", "Crime", "Thriller"],
+      "description": "Over many missions and against impossible odds, Dom Toretto and his family have outsmarted, out-nerved and outdriven every foe in their path. Now, they confront the most lethal opponent they've ever faced: A terrifying threat emerging from the shadows of the past who's fueled by blood revenge, and who is determined to shatter this family and destroy everything—and everyone—that Dom loves, forever.",
+      "budget": 340000000,
+      "revenue": 704000000
+    },
+    {
+      "id": "2",
+      "title": "Spider-Man: Across the Spider-Verse",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
+      "rating": 8.4,
+      "releaseDate": "2023-05-31",
+      "duration": 140,
+      "genres": ["Animation", "Action", "Adventure"],
+      "description": "After reuniting with Gwen Stacy, Brooklyn's full-time, friendly neighborhood Spider-Man is catapulted across the Multiverse, where he encounters the Spider Society, a team of Spider-People charged with protecting the Multiverse's very existence.",
+      "budget": 100000000,
+      "revenue": 690000000
+    },
+    {
+      "id": "3",
+      "title": "Guardians of the Galaxy Vol. 3",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg",
+      "rating": 8.0,
+      "releaseDate": "2023-05-03",
+      "duration": 150,
+      "genres": ["Action", "Adventure", "Sci-Fi"],
+      "description": "Peter Quill, still reeling from the loss of Gamora, must rally his team around him to defend the universe along with protecting one of their own. A mission that, if not completed successfully, could quite possibly lead to the end of the Guardians as we know them.",
+      "budget": 250000000,
+      "revenue": 845000000
+    }
+  ],
+  "popular": [
+    {
+      "id": "4",
+      "title": "The Godfather",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg",
+      "rating": 8.7,
+      "releaseDate": "1972-03-14",
+      "duration": 175,
+      "genres": ["Drama", "Crime"],
+      "description": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family.",
+      "budget": 6000000,
+      "revenue": 246000000
+    },
+    {
+      "id": "5",
+      "title": "The Dark Knight",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+      "rating": 9.0,
+      "releaseDate": "2008-07-16",
+      "duration": 152,
+      "genres": ["Action", "Crime", "Drama"],
+      "description": "Batman raises the stakes in his war on crime with the help of Lt. Jim Gordon and District Attorney Harvey Dent.",
+      "budget": 185000000,
+      "revenue": 1005000000
+    },
+    {
+      "id": "6",
+      "title": "Inception",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg",
+      "rating": 8.8,
+      "releaseDate": "2010-07-15",
+      "duration": 148,
+      "genres": ["Action", "Sci-Fi", "Thriller"],
+      "description": "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his targets is offered a chance to regain his old life.",
+      "budget": 160000000,
+      "revenue": 829000000
+    }
+  ],
+  "upcoming": [
+    {
+      "id": "7",
+      "title": "Dune: Part Two",
+      "posterUrl": "https://image.tmdb.org/t/p/w500/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg",
+      "rating": 8.5,
+      "releaseDate": "2024-02-28",
+      "duration": 166,
+      "genres": ["Adventure", "Sci-Fi"],
+      "description": "Follow the mythic journey of Paul Atreides as he unites with Chani and the Fremen while on a path of revenge.",
+      "budget": 190000000,
+      "revenue": 0
+    }
+  ]
+}

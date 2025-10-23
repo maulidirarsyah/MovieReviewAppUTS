@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 **🎬 Flutter Movie Review App**
 Aplikasi Flutter Movie Review App adalah aplikasi katalog film sederhana yang dibuat menggunakan Flutter dan Dart.
 Aplikasi ini memungkinkan pengguna untuk menjelajahi daftar film, melihat detail film, melakukan pencarian, dan menampilkan halaman favorit (masih dalam tahap pengembangan).
@@ -73,3 +74,21 @@ Jalankan aplikasi
 Faruq Faroiz Maulidiarsyah [2306051101179]
 
 📧 [faruqfaroiz@gmail.com]
+=======
+# movie_app
+
+A new Flutter project.
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
+>>>>>>> 471fbb7 (Initial commit: Movie Review App UTS)
