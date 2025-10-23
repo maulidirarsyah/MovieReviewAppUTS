@@ -49,9 +49,21 @@ Trailer Preview (belum berfungsi) — tombol untuk menampilkan trailer film.
 
 ```
 
-
  🧠 Teknologi yang Digunakan
 Framework: Flutter
 Bahasa: Dart
 Desain UI: Material Design Components
 Sumber Data: File lokal movie_data.dart (dummy JSON-like data)
+
+**⚙️ Cara Menjalankan Proyek**
+Clone repository ini
+``` git clone https://github.com/<username>/flutter_movie_app.git ```
+
+Masuk ke direktori proyek
+``` cd flutter_movie_app ```
+
+Install dependencies
+``` flutter pub get ```
+
+Jalankan aplikasi
+``` flutter run```
