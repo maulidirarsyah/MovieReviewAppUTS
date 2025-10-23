@@ -22,7 +22,9 @@ Favorites Page (masih dummy) — rencana untuk menyimpan film favorit pengguna.
 Trailer Preview (belum berfungsi) — tombol untuk menampilkan trailer film.
 
 **🧩 Project Structure**
-### 📁 Project Structure ``` . ├── assets/ │ ├── data/ │ │ └── movies.json │ └── images/ │ └── logo.png │ └── lib/ ├── data/ │ └── movie_data.dart ├── models/ │ └── movie.dart ├── pages/ │ ├── favorites_page.dart │ ├── home_page.dart │ ├── login_page.dart │ ├── main_page.dart │ ├── movie_detail_page.dart │ ├── search_page.dart │ └── splash_page.dart ├── widgets/ │ ├── info_card.dart │ └── movie_card.dart └── main.dart ``` ## 📂 Folder Description ###
+## 📁 Project Structure ``` project-root/ │ ├── assets/ │ ├── data/ │ │ └── movies.json │ │ │ └── images/ │ └── logo.png │ └── lib/ ├── data/ │ └── movie_data.dart │ ├── models/ │ └── movie.dart │ ├── pages/ │ ├── favorites_page.dart │ ├── home_page.dart │ ├── login_page.dart │ ├── main_page.dart │ ├── movie_detail_page.dart │ ├── search_page.dart │ └── splash_page.dart │ ├── widgets/ │ ├── info_card.dart │ └── movie_card.dart │ └── main.dart ``` ##
+
+
  🧠 Teknologi yang Digunakan
 Framework: Flutter
 Bahasa: Dart
