@@ -14,6 +14,7 @@ Semua data film dalam aplikasi ini masih bersifat dummy (belum terhubung ke API 
 Fitur Favorites Page dan Trailer saat ini belum berfungsi sepenuhnya dan akan dikembangkan di versi berikutnya.
 
 **🚀 Fitur Utama**
+
 Splash Screen: tampilan pembuka aplikasi sebelum masuk ke halaman utama.
 
 Login Page: halaman login sederhana untuk masuk ke aplikasi.
