@@ -7,7 +7,7 @@ Aplikasi Movie Review adalah aplikasi mobile berbasis Flutter yang menampilkan k
 Authentication Flow
 |               Splash              |              Login             |  
 | :-------------------------------: | :---------------------------: | 
-| ![Splash](screenshots/plash.png) | ![Login](screenshots/ogin.png) | 
+| ![Splash](screenshots/Splash.png) | ![Login](screenshots/ogin.png) | 
 
 
 Main Features
