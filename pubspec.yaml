@@ -30,6 +30,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+ 
+  http: ^1.1.0
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2  # Untuk menyimpan favorites
+  url_launcher: ^6.2.2  # Untuk buka YouTube trailer
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.

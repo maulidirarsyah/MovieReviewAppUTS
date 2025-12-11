@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
-import 'login_page.dart';
+import '../routes/app_routes.dart';
 
 class SplashPage extends StatefulWidget {
   const SplashPage({Key? key}) : super(key: key);
@@ -34,11 +34,9 @@ class _SplashPageState extends State<SplashPage>
 
     _animationController.forward();
 
-    // Navigate to login page after 3 seconds
+    // Navigate to login page after 3 seconds using named route
     Timer(const Duration(seconds: 3), () {
-      Navigator.of(context).pushReplacement(
-        MaterialPageRoute(builder: (context) => const LoginPage()),
-      );
+      Navigator.of(context).pushReplacementNamed(AppRoutes.login);
     });
   }
 
@@ -52,7 +50,17 @@ class _SplashPageState extends State<SplashPage>
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        color: const Color(0xFF0D1B2A),
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+            colors: [
+              const Color(0xFF0A1628),
+              const Color(0xFF1A2942),
+              const Color(0xFF0A1628),
+            ],
+          ),
+        ),
         child: Center(
           child: FadeTransition(
             opacity: _fadeAnimation,
@@ -61,7 +69,6 @@ class _SplashPageState extends State<SplashPage>
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  // Logo Image dengan glow effect
                   Container(
                     padding: const EdgeInsets.all(30),
                     decoration: BoxDecoration(
@@ -82,7 +89,6 @@ class _SplashPageState extends State<SplashPage>
                         height: 120,
                         fit: BoxFit.cover,
                         errorBuilder: (context, error, stackTrace) {
-                          // Fallback jika gambar tidak ditemukan
                           return const Icon(
                             Icons.movie_creation_outlined,
                             size: 100,
@@ -93,10 +99,8 @@ class _SplashPageState extends State<SplashPage>
                     ),
                   ),
                   const SizedBox(height: 30),
-
-                  // App Name
                   const Text(
-                    'Movie Review',
+                    'Movie Stream',
                     style: TextStyle(
                       fontSize: 36,
                       fontWeight: FontWeight.bold,
@@ -105,8 +109,6 @@ class _SplashPageState extends State<SplashPage>
                     ),
                   ),
                   const SizedBox(height: 10),
-
-                  // Tagline
                   Text(
                     'Your Gateway to Entertainment',
                     style: TextStyle(
@@ -116,8 +118,6 @@ class _SplashPageState extends State<SplashPage>
                     ),
                   ),
                   const SizedBox(height: 50),
-
-                  // Loading Indicator
                   SizedBox(
                     width: 40,
                     height: 40,

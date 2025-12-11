@@ -1,40 +1,40 @@
 class Movie {
-  final String id;
+  final int id;
   final String title;
-  final String posterUrl;
+  final String? posterPath;
+  final String? backdropPath;
   final double rating;
   final String releaseDate;
-  final int duration;
-  final List<String> genres;
-  final String description;
-  final int budget;
-  final int revenue;
+  final List<int> genreIds;
+  final String overview;
+  final double popularity;
+  final int? voteCount;
 
   Movie({
     required this.id,
     required this.title,
-    required this.posterUrl,
+    this.posterPath,
+    this.backdropPath,
     required this.rating,
     required this.releaseDate,
-    required this.duration,
-    required this.genres,
-    required this.description,
-    required this.budget,
-    required this.revenue,
+    required this.genreIds,
+    required this.overview,
+    required this.popularity,
+    this.voteCount,
   });
 
   factory Movie.fromJson(Map<String, dynamic> json) {
     return Movie(
-      id: json['id'],
-      title: json['title'],
-      posterUrl: json['posterUrl'],
-      rating: json['rating'].toDouble(),
-      releaseDate: json['releaseDate'],
-      duration: json['duration'],
-      genres: List<String>.from(json['genres']),
-      description: json['description'],
-      budget: json['budget'],
-      revenue: json['revenue'],
+      id: json['id'] ?? 0,
+      title: json['title'] ?? 'Unknown',
+      posterPath: json['poster_path'],
+      backdropPath: json['backdrop_path'],
+      rating: (json['vote_average'] ?? 0).toDouble(),
+      releaseDate: json['release_date'] ?? '',
+      genreIds: List<int>.from(json['genre_ids'] ?? []),
+      overview: json['overview'] ?? '',
+      popularity: (json['popularity'] ?? 0).toDouble(),
+      voteCount: json['vote_count'],
     );
   }
 
@@ -42,14 +42,29 @@ class Movie {
     return {
       'id': id,
       'title': title,
-      'posterUrl': posterUrl,
-      'rating': rating,
-      'releaseDate': releaseDate,
-      'duration': duration,
-      'genres': genres,
-      'description': description,
-      'budget': budget,
-      'revenue': revenue,
+      'poster_path': posterPath,
+      'backdrop_path': backdropPath,
+      'vote_average': rating,
+      'release_date': releaseDate,
+      'genre_ids': genreIds,
+      'overview': overview,
+      'popularity': popularity,
+      'vote_count': voteCount,
     };
+  }
+
+  String? get fullPosterPath {
+    if (posterPath == null) return null;
+    return 'https://image.tmdb.org/t/p/w500$posterPath';
+  }
+
+  String? get fullBackdropPath {
+    if (backdropPath == null) return null;
+    return 'https://image.tmdb.org/t/p/w500$backdropPath';
+  }
+
+  String get year {
+    if (releaseDate.isEmpty) return '';
+    return releaseDate.split('-')[0];
   }
 }
