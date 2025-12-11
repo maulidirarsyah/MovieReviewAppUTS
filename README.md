@@ -11,14 +11,14 @@ Authentication Flow
 
 
 Main Features
-|               Home - Trending             |               Home - Popular              |               Home - Popular             |
+|               Home - Trending             |               Home - Popular              |               Home - Upcoming             |
 | :-------------------------------: | :---------------------------: | :-------------------------------: |
-| ![Trending](screenshots/plash.png) | ![Popular](screenshots/ogin.png) | ![Popular](screenshots/home.png) | 
+| ![Trending](screenshots/Trending.png) | ![Popular](screenshots/Popular.png) | ![Popular](screenshots/Upcoming.png) | 
 
 Search, Detail, & Favorites
 |               Search             |               Movie Detail              |               Similar Movies             |               Favorites            |
 | :-------------------------------: | :---------------------------: | :-------------------------------: | :-------------------------------: |
-| ![Search](screenshots/plash.png) | ![Movie Detail](screenshots/ogin.png) | ![Similar Movies ](screenshots/home.png) | ![Favorites](screenshots/home.png) | 
+| ![Search](screenshots/Search.png) | ![Movie Detail](screenshots/Detail.png) | ![Similar Movies ](screenshots/Similar.png) | ![Favorites](screenshots/Favorites.png) | 
 
 
 
