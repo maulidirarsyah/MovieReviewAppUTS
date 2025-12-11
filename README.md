@@ -4,18 +4,24 @@ Aplikasi Movie Review adalah aplikasi mobile berbasis Flutter yang menampilkan k
 
 **🎬 Preview**
 
-Authentication Flow
+
+
+**Authentication Flow**
 |               Splash              |              Login             |  
 | :-------------------------------: | :---------------------------: | 
 | ![Splash](screenshots/Splash.png) | ![Login](screenshots/ogin.png) | 
 
 
-Main Features
+
+
+**Main Features**
 |               Home - Trending             |               Home - Popular              |               Home - Upcoming             |
 | :-------------------------------: | :---------------------------: | :-------------------------------: |
 | ![Trending](screenshots/Trending.png) | ![Popular](screenshots/Popular.png) | ![Popular](screenshots/Upcoming.png) | 
 
-Search, Detail, & Favorites
+
+
+**Search, Detail, & Favorites**
 |               Search             |               Movie Detail              |               Similar Movies             |               Favorites            |
 | :-------------------------------: | :---------------------------: | :-------------------------------: | :-------------------------------: |
 | ![Search](screenshots/search.png) | ![Movie Detail](screenshots/detail.png) | ![Similar Movies ](screenshots/Similar.png) | ![Favorites](screenshots/Favorites.png) | 
