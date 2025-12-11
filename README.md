@@ -18,7 +18,7 @@ Main Features
 Search, Detail, & Favorites
 |               Search             |               Movie Detail              |               Similar Movies             |               Favorites            |
 | :-------------------------------: | :---------------------------: | :-------------------------------: | :-------------------------------: |
-| ![Search](screenshots/Search.png) | ![Movie Detail](screenshots/Detail.png) | ![Similar Movies ](screenshots/Similar.png) | ![Favorites](screenshots/Favorites.png) | 
+| ![Search](screenshots/search.png) | ![Movie Detail](screenshots/detail.png) | ![Similar Movies ](screenshots/Similar.png) | ![Favorites](screenshots/Favorites.png) | 
 
 
 
