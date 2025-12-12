@@ -46,7 +46,7 @@ class _HomePageState extends State<HomePage>
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 const Text(
-                  'Movie Stream',
+                  'Movie Review',
                   style: TextStyle(
                     fontSize: 28,
                     fontWeight: FontWeight.bold,

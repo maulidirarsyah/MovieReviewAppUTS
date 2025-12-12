@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:share_plus/share_plus.dart';
 import '../models/movie_detail.dart';
 import '../models/movie.dart';
 import '../providers/movie_provider.dart';
@@ -45,6 +46,23 @@ class _MovieDetailPageState extends State<MovieDetailPage> {
         );
       }
     }
+  }
+
+  void _shareMovie(MovieDetail movie) {
+    final String shareText =
+        '''
+🎬 ${movie.title}
+
+${movie.tagline != null && movie.tagline!.isNotEmpty ? '"${movie.tagline}"\n\n' : ''}⭐ Rating: ${movie.rating.toStringAsFixed(1)}/10
+📅 Release: ${movie.releaseDate}
+⏱️ Duration: ${movie.runtime} min
+
+${movie.overview.isNotEmpty ? movie.overview : 'No overview available.'}
+
+${movie.youtubeTrailer?.youtubeUrl ?? ''}
+''';
+
+    Share.share(shareText, subject: movie.title);
   }
 
   void _showFavoriteNotification(bool wasRemoved) {
@@ -464,7 +482,7 @@ class _MovieDetailPageState extends State<MovieDetailPage> {
                 child: IconButton(
                   icon: const Icon(Icons.share, color: Colors.white),
                   onPressed: () {
-                    // Implement share functionality
+                    _shareMovie(movie);
                   },
                 ),
               ),
